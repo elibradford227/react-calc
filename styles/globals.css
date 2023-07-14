@@ -1,22 +1,95 @@
-@import 'bootstrap/dist/css/bootstrap.css';
+/* @import 'bootstrap/dist/css/bootstrap.css'; */
 
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
   color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
   background-color: #88effd;
+}
+
+.wrapper {
+  width: 400px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: #ebebeb;
+}
+
+button:active {
+  background-color: #bbbcbe;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.result {
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.clear {
+  background-color: #d8d9db;
+  height: 100px;
+  width: 200px;
+}
+
+.column3 {
+  background-color: #d8d9db;
+  height: 100px;
+}
+
+.column4 {
+  background-color: rgb(98, 109, 136);
+  height: 100px;
+}
+
+.column7 {
+  background-color: rgb(98, 109, 136);
+  height: 100px;
+}
+
+.column10 {
+  width: 300px;
+  height: 100px;
+}
+
+.last {
+  background-color: #df974c;
+  height: 100px;
+  color: white;
+}
+
+.last:hover {
+  background-color: #dfb07e;
+}
+
+.last:active {
+  background-color: #dd8d37;
 }
